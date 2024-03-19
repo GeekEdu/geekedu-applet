@@ -1,15 +1,23 @@
 <template>
-	<view class="scroll-row-item course" :class="'course-' + this.type">
+	<view class="scroll-row-item course " :class="'course-'+type" @click="openDetail">
 		<view class="position-relative">
-			<image :src="item.cover" ></image>
-			<view class="text-white font-sm">{{ item.type | formatType(item.type)}}</view>
+			<image :src="item.cover"></image>
+			<view class="text-white font-sm">
+				{{item.type|formatType}}
+			</view>
 		</view>
-		<view class="flex flex-column flex-shrink">
-			<text class="text-ellipsis font-md">{{ item.title }}</text>
-			<view class="font-sm text-light-muted my-1">10人已抢</view>
+		<view class="flex flex-column flex-shrink" style="width: 380rpx;">
+			<text class="text-ellipsis font-md">{{item.title}}</text>
+			<!-- 插槽 -->
+			<slot name="desc">
+			</slot>
 			<view class="flex flex-1 align-end">
-				<text class="font-md text-danger">${{ item.price }}</text>
-				<text class="font-sm text-light-muted">${{ item.t_price }}</text>
+				<slot>
+					<text class="font text-danger" v-if="tag">{{tag}}:</text>
+					<text class="font-md text-danger" v-if="item.price==0">免费</text>
+					<text class="font-md text-danger" v-else-if='item.price>0'>￥{{item.price}}</text>
+					<text class="font-sm text-light-muted" v-if="item.t_price">￥{{item.t_price}}</text>
+				</slot>
 			</view>
 		</view>
 	</view>
@@ -23,12 +31,12 @@
 		column: "专栏"
 	}
 	export default {
-		name:"course-list",
+		name: "course-list",
 		props: {
 			item: Object,
 			type: {
 				type: String,
-				default: 'two' // one 单列 two 多列
+				default: 'two'
 			},
 			tag: {
 				type: String,
@@ -43,8 +51,32 @@
 		},
 		data() {
 			return {
-				
+
 			};
+		},
+		methods: {
+			openDetail() {
+				let params = `id=${this.item.id}`
+				if (this.item.group_id) {
+					params += `&group_id=${this.item.group_id}`
+				}
+
+				if (this.item.flashsale_id) {
+					params += `&flashsale_id=${this.item.flashsale_id}`
+				}
+
+				let url = '/pages-media/course/course?' + params
+				if (!this.item.type || this.item.type === 'column') {
+					url = '/pages-media/column/column?' + params
+				}
+				if (this.item.type === 'live') {
+					url = '/pages-media/live/live?' + params
+				}
+
+				uni.navigateTo({
+					url,
+				});
+			}
 		}
 	}
 </script>

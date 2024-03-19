@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/learn/learn",
+    "pages/tabbar/home/home",
+    "pages/tabbar/index/index",
+    "components/f-search-bar/f-search-bar"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "GeekEdu",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBAC7",
+    "selectedColor": "#2C2C2C",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "/static/tabbar/index1.png",
+        "pagePath": "pages/tabbar/index/index",
+        "selectedIconPath": "/static/tabbar/index1_selected.png",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/static/tabbar/learn.png",
+        "pagePath": "pages/tabbar/learn/learn",
+        "selectedIconPath": "/static/tabbar/learn_selected.png",
+        "text": "学习"
+      },
+      {
+        "iconPath": "/static/tabbar/home.png",
+        "pagePath": "pages/tabbar/home/home",
+        "selectedIconPath": "/static/tabbar/home_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view :style="{ height: statusBarHeight; background: bgColor }" class="uni-status-bar">
+		<view :style="{ height: statusBarHeight;background:bgColor }" class="uni-status-bar">
 			<slot />
 		</view>
 		<!-- 占位 -->
@@ -10,7 +10,7 @@
 
 <script>
 	export default {
-		name: 'uni-status-bar',
+		name: 'UniStatusBar',
 		props: {
 			bgColor: {
 				type: String,
