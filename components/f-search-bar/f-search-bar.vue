@@ -1,8 +1,9 @@
 <template>
 	<view class="p-2">
-		<view style="background-color: #f5f5f1;color: #928E8A;" class="flex justify-center align-center py-2 rounded"
+		<view style="background-color: #f5f5f5;color: #928E8A; font-size: 30rpx;" 
+		  class="flex justify-center align-center py-1 rounded-circle"
 			@click="open">
-			<uni-icons color="#928E8A" type="search" size="20"></uni-icons>
+			<uni-icons color="#928E8A" type="search" size="15"></uni-icons>
 			<text class="ml-2">{{placeholder}}</text>
 		</view>
 	</view>

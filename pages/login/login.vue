@@ -20,11 +20,11 @@
 			</view>
 			<view class="login-form">
 				<uni-icons type="locked"></uni-icons>
-				<input v-model="form.password" type="safe-password" placeholder="请输入密码" class="rounded font-md" />
+				<input v-model="form.password" type="password" password="true" placeholder="请输入密码" class="rounded font-md" />
 			</view>
 			<view class="login-form" v-if="type==='reg'">
 				<uni-icons type="locked"></uni-icons>
-				<input v-model="form.repassword" type="safe-password" placeholder="请输入确认密码" class="rounded font-md" />
+				<input v-model="form.repassword" type="password" password="true" placeholder="请输入确认密码" class="rounded font-md" />
 			</view>
 			<!-- 登录按钮 -->
 			<view class="bg-main btn" hover-class="bg-main-hover" @click="submit">
@@ -248,6 +248,9 @@
 	}
 </script>
 
-<style>
-
+<style scoped>
+.login-bg {
+	height: 220rpx;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%)
+}
 </style>

@@ -3,15 +3,74 @@
     "pages/tabbar/index/index",
     "pages/tabbar/learn/learn",
     "pages/tabbar/home/home",
-    "pages/tabbar/index/index",
-    "components/f-search-bar/f-search-bar"
+    "pages/login/login",
+    "pages/search/search",
+    "pages/search-result/search-result",
+    "pages/list/list",
+    "pages/webview/webview"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pages-test",
+      "pages": [
+        "test-list/test-list",
+        "test-detail/test-detail",
+        "my-test/my-test"
+      ]
+    },
+    {
+      "root": "pages-media",
+      "pages": [
+        "live/live",
+        "column/column",
+        "course/course"
+      ]
+    },
+    {
+      "root": "pages-bbs",
+      "pages": [
+        "bbs/bbs",
+        "add-post/add-post",
+        "post-detail/post-detail",
+        "my-post/my-post"
+      ]
+    },
+    {
+      "root": "pages-book",
+      "pages": [
+        "my-book/my-book",
+        "book-list/book-list",
+        "book-detail/book-detail",
+        "book/book"
+      ]
+    },
+    {
+      "root": "pages-user",
+      "pages": [
+        "msg-list/msg-list",
+        "fava-list/fava-list",
+        "bind-phone/bind-phone",
+        "forget/forget",
+        "setting/setting",
+        "my-coupon/my-coupon",
+        "user-safe/user-safe",
+        "user-info/user-info"
+      ]
+    },
+    {
+      "root": "pages-order",
+      "pages": [
+        "create-order/create-order",
+        "h5pay/h5pay",
+        "order-list/order-list"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "GeekEdu",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTitleText": "uniapp在线教育",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#FFF"
   },
   "tabBar": {
     "color": "#BBBAC7",
@@ -19,24 +78,32 @@
     "borderStyle": "black",
     "list": [
       {
-        "iconPath": "/static/tabbar/index1.png",
+        "iconPath": "static/tabbar/icon-home-n@2x.png",
         "pagePath": "pages/tabbar/index/index",
-        "selectedIconPath": "/static/tabbar/index1_selected.png",
+        "selectedIconPath": "static/tabbar/icon-home-h@2x.png",
         "text": "首页"
       },
       {
-        "iconPath": "/static/tabbar/learn.png",
+        "iconPath": "static/tabbar/icon-study-n@2x.png",
         "pagePath": "pages/tabbar/learn/learn",
-        "selectedIconPath": "/static/tabbar/learn_selected.png",
+        "selectedIconPath": "static/tabbar/icon-study-h@2x.png",
         "text": "学习"
       },
       {
-        "iconPath": "/static/tabbar/home.png",
+        "iconPath": "static/tabbar/icon-me-n@2x.png",
         "pagePath": "pages/tabbar/home/home",
-        "selectedIconPath": "/static/tabbar/home_selected.png",
+        "selectedIconPath": "static/tabbar/icon-me-h@2x.png",
         "text": "我的"
       }
     ]
+  },
+  "preloadRule": {
+    "pages-test/test-list/test-list": {
+      "network": "all",
+      "packages": [
+        "pages-test"
+      ]
+    }
   },
   "usingComponents": {}
 }

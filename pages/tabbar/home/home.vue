@@ -107,7 +107,7 @@
 
 <style>
 	.home-bg {
-		background-color: #5ccc84;
+		background-color: #a6c0fe;
 		height: 350rpx;
 		width: 750rpx;
 		border-bottom-left-radius: 100rpx;

@@ -15,7 +15,7 @@
 
 				<!-- 轮播图 -->
 				<swiper v-else-if="item.type==='swiper'" style="310rpx" :indicator-dots="true" :autoplay="true"
-					:interval="3000" :duration="1000">
+					:interval="3000" :duration="1000" circular="true">
 					<swiper-item class="flex justify-center" v-for="(s,sI) in item.data" :key="sI"
 						@click="swiperClick(s)">
 						<image style="width: 720rpx;height: 300rpx;" class="rounded shadow" :src="s.src"
