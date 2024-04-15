@@ -18,8 +18,8 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.3.4",
-  "appid": "touristappid",
+  "libVersion": "3.4.1",
+  "appid": "wx4bce2707e578251e",
   "projectname": "geekedu-applet",
   "condition": {},
   "editorSetting": {
