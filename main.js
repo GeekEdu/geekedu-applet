@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import api from '@/api/api.js'
+import localapi from '@/api/localapi.js'
 
 Vue.config.productionTip = false
 Vue.prototype.$api = api
+Vue.prototype.$localApi = localapi
 
 import store from '@/store/index.js'
 Vue.prototype.$store = store

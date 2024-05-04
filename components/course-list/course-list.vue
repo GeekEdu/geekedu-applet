@@ -2,9 +2,9 @@
 	<view class="scroll-row-item course " :class="'course-'+type" @click="openDetail">
 		<view class="position-relative">
 			<image :src="item.cover"></image>
-			<view class="text-white font-sm">
+			<!-- <view class="text-white font-sm">
 				{{item.type|formatType}}
-			</view>
+			</view> -->
 		</view>
 		<view class="flex flex-column flex-shrink" style="width: 380rpx;">
 			<text class="text-ellipsis font-md">{{item.title}}</text>
@@ -13,10 +13,10 @@
 			</slot>
 			<view class="flex flex-1 align-end">
 				<slot>
-					<text class="font text-danger" v-if="tag">{{tag}}:</text>
+					<!-- <text class="font text-danger" v-if="tag">{{tag}}:</text> -->
 					<text class="font-md text-danger" v-if="item.price==0">免费</text>
 					<text class="font-md text-danger" v-else-if='item.price>0'>￥{{item.price}}</text>
-					<text class="font-sm text-light-muted" v-if="item.t_price">￥{{item.t_price}}</text>
+					<!-- <text class="font-sm text-light-muted" v-if="item.t_price">￥{{item.t_price}}</text> -->
 				</slot>
 			</view>
 		</view>

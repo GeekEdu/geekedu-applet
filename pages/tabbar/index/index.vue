@@ -28,19 +28,32 @@
 				<icon-nav v-else-if="item.type==='icons'" :list="item.data"></icon-nav>
 
 				<!-- 优惠券 -->
-				<coupon-list ref="couponList" v-else-if="item.type==='coupon'"></coupon-list>
+				<!-- <coupon-list ref="couponList" v-else-if="item.type==='coupon'"></coupon-list> -->
 
 				<!-- 拼团模块 -->
-				<view v-else-if="item.type==='promotion'">
+				<!-- <view v-else-if="item.type==='promotion'">
 					<active-list :type="item.listType"></active-list>
-				</view>
+				</view> -->
 
 				<!-- 最新课程 -->
 				<view v-else-if="item.type==='list'">
 					<view class="divider"></view>
 					<view class="flex align-center px-2 py-3 justify-between">
 						<text class="font-md font-weight-bold">{{item.title}}</text>
-						<text class="font-sm text-light-muted" v-if="item.showMore" @click="openCourseList">查看更多</text>
+						<!-- <text class="font-sm text-light-muted" v-if="item.showMore" @click="openCourseList">查看更多</text> -->
+					</view>
+					<view>
+						<course-list :type='item.listType' v-for="(item2,index2) in item.data" :key="index2"
+							:item='item2'></course-list>
+					</view>
+				</view>
+				
+				<!-- 最新图文 -->
+				<view v-else-if="item.type==='topic'">
+					<view class="divider"></view>
+					<view class="flex align-center px-2 py-3 justify-between">
+						<text class="font-md font-weight-bold">{{item.title}}</text>
+						<!-- <text class="font-sm text-light-muted" v-if="item.showMore" @click="openCourseList">查看更多</text> -->
 					</view>
 					<view>
 						<course-list :type='item.listType' v-for="(item2,index2) in item.data" :key="index2"
@@ -49,12 +62,12 @@
 				</view>
 
 				<!-- 广告位 -->
-				<view v-else-if="item.type==='imageAd'">
+				<!-- <view v-else-if="item.type==='imageAd'">
 					<view class="divider"></view>
 					<image :src="item.data" mode="aspectFill" style="width: 750rpx;height: 360rpx;"
 						@click="imageAdClick(item)">
 					</image>
-				</view>
+				</view> -->
 			</block>
 		</view>
 	</view>
@@ -112,7 +125,7 @@
 				}
 			},
 			getData() {
-				this.$api.getIndexData().then(data => {
+				this.$localApi.getIndexData().then(data => {
 					this.templates = data
 				}).finally(() => {
 					this.loading = false
