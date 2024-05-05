@@ -9344,6 +9344,66 @@ internalMixin(Vue);
 
 /***/ }),
 
+/***/ 296:
+/*!*****************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/index.js ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 297));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 298));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 299));
+var _default = {
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ 297:
+/*!****************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/en.json ***!
+  \****************************************************************************************************************/
+/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"Pull up to show more\",\"uni-load-more.contentrefresh\":\"loading...\",\"uni-load-more.contentnomore\":\"No more data\"}");
+
+/***/ }),
+
+/***/ 298:
+/*!*********************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hans.json ***!
+  \*********************************************************************************************************************/
+/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉显示更多\",\"uni-load-more.contentrefresh\":\"正在加载...\",\"uni-load-more.contentnomore\":\"没有更多数据了\"}");
+
+/***/ }),
+
+/***/ 299:
+/*!*********************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hant.json ***!
+  \*********************************************************************************************************************/
+/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉顯示更多\",\"uni-load-more.contentrefresh\":\"正在加載...\",\"uni-load-more.contentnomore\":\"沒有更多數據了\"}");
+
+/***/ }),
+
 /***/ 3:
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -9372,66 +9432,6 @@ try {
 
 module.exports = g;
 
-
-/***/ }),
-
-/***/ 306:
-/*!*****************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/index.js ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 307));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 308));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 309));
-var _default = {
-  en: _en.default,
-  'zh-Hans': _zhHans.default,
-  'zh-Hant': _zhHant.default
-};
-exports.default = _default;
-
-/***/ }),
-
-/***/ 307:
-/*!****************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/en.json ***!
-  \****************************************************************************************************************/
-/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"Pull up to show more\",\"uni-load-more.contentrefresh\":\"loading...\",\"uni-load-more.contentnomore\":\"No more data\"}");
-
-/***/ }),
-
-/***/ 308:
-/*!*********************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hans.json ***!
-  \*********************************************************************************************************************/
-/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉显示更多\",\"uni-load-more.contentrefresh\":\"正在加载...\",\"uni-load-more.contentnomore\":\"没有更多数据了\"}");
-
-/***/ }),
-
-/***/ 309:
-/*!*********************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hant.json ***!
-  \*********************************************************************************************************************/
-/*! exports provided: uni-load-more.contentdown, uni-load-more.contentrefresh, uni-load-more.contentnomore, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉顯示更多\",\"uni-load-more.contentrefresh\":\"正在加載...\",\"uni-load-more.contentnomore\":\"沒有更多數據了\"}");
 
 /***/ }),
 
@@ -9567,264 +9567,7 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 33:
-/*!***********************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/api/api.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _request = _interopRequireDefault(__webpack_require__(/*! ./request.js */ 34));
-var _default = {
-  // 获取首页数据
-  getIndexData: function getIndexData() {
-    return _request.default.get('/mobile/index');
-  },
-  // 获取可用秒杀列表
-  getFlashSale: function getFlashSale() {
-    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    params.usable = 1;
-    return _request.default.get('/mobile/flashsale', params);
-  },
-  // 获取可用get拼团列表
-  getGroup: function getGroup() {
-    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    params.usable = 1;
-    return _request.default.get('/mobile/group', params);
-  },
-  // 注册账号
-  reg: function reg(data) {
-    return _request.default.post('/mobile/reg', data);
-  },
-  // 账号登录
-  login: function login(data) {
-    return _request.default.post('/mobile/login', data);
-  },
-  // 获取手机验证码
-  getCaptcha: function getCaptcha(data) {
-    return _request.default.post('/mobile/get_captcha', data);
-  },
-  // 绑定手机号
-  bindMobile: function bindMobile(data) {
-    return _request.default.post('/mobile/bind_mobile', data);
-  },
-  // 找回密码
-  forget: function forget(data) {
-    return _request.default.post('/mobile/forget', data);
-  },
-  // 退出登录
-  logout: function logout() {
-    return _request.default.post('/mobile/logout');
-  },
-  // 修改密码
-  updatePassword: function updatePassword(data) {
-    return _request.default.post('/mobile/update_password', data);
-  },
-  // 上传图片
-  upload: function upload(filePath) {
-    var onProgress = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-    return _request.default.upload('/mobile/upload', {
-      filePath: filePath
-    }, {
-      onProgress: onProgress
-    });
-  },
-  // 修改资料
-  updateInfo: function updateInfo(data) {
-    return _request.default.post('/mobile/update_info', data);
-  },
-  // 获取订单列表
-  getOrderList: function getOrderList(params) {
-    return _request.default.get('/mobile/order/list', params);
-  },
-  // 获取优惠券列表
-  getCoupon: function getCoupon() {
-    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    return _request.default.get('/mobile/coupon', params);
-  },
-  // 领取优惠券
-  receiveCoupon: function receiveCoupon(data) {
-    return _request.default.post('/mobile/user_coupon/receive', data);
-  },
-  // 我的优惠券列表
-  getUserCoupon: function getUserCoupon(params) {
-    return _request.default.get('/mobile/user_coupon', params);
-  },
-  // 搜索结果页
-  search: function search(params) {
-    return _request.default.get('/mobile/search', params);
-  },
-  // 查看课程详情
-  readCourse: function readCourse(params) {
-    return _request.default.get('/mobile/course/read', params);
-  },
-  // 获取专栏详情页
-  readColumn: function readColumn(params) {
-    return _request.default.get('/mobile/column/read', params);
-  },
-  // 学习进度列表
-  getUserHistory: function getUserHistory(params) {
-    return _request.default.get('/mobile/user_history/list', params);
-  },
-  // 更新学习进度
-  updateUserHistory: function updateUserHistory(data) {
-    return _request.default.post('/mobile/user_history/update', data);
-  },
-  // 考场列表
-  getTestList: function getTestList(params) {
-    return _request.default.get('/mobile/testpaper/list', params);
-  },
-  // 开始考试
-  readTestPaper: function readTestPaper(params) {
-    return _request.default.get('/mobile/testpaper/read', params);
-  },
-  // 考试交卷
-  submitTest: function submitTest(data) {
-    return _request.default.post('/mobile/user_test/save', data);
-  },
-  // 我的考试记录
-  getMyTestList: function getMyTestList(params) {
-    return _request.default.get('/mobile/user_test/list', params);
-  },
-  // 社区列表
-  getBbsList: function getBbsList(params) {
-    return _request.default.get('/mobile/bbs', params);
-  },
-  // 帖子列表
-  getPostList: function getPostList(params) {
-    return _request.default.get('/mobile/post/list', params);
-  },
-  // 点赞帖子
-  supportPost: function supportPost(data) {
-    return _request.default.post('/mobile/post/support', data);
-  },
-  // 取消点赞帖子
-  unSupportPost: function unSupportPost(data) {
-    return _request.default.post('/mobile/post/unsupport', data);
-  },
-  // 发布帖子
-  addPost: function addPost(data) {
-    return _request.default.post('/mobile/post/save', data);
-  },
-  // 查看帖子
-  readPost: function readPost(params) {
-    return _request.default.get('/mobile/post/read', params);
-  },
-  // 查看帖子评论
-  getPostComments: function getPostComments(params) {
-    return _request.default.get('/mobile/post_comment', params);
-  },
-  // 发送评论
-  replyPost: function replyPost(data) {
-    return _request.default.post('/mobile/post/reply', data);
-  },
-  // 我的帖子列表
-  getMyPost: function getMyPost(params) {
-    return _request.default.get('/mobile/mypost', params);
-  },
-  // 删除我的帖子
-  deletePost: function deletePost(data) {
-    return _request.default.post('/mobile/post/delete', data);
-  },
-  // 电子书列表
-  getBookList: function getBookList(params) {
-    return _request.default.get('/mobile/book/list', params);
-  },
-  // 查看电子书详情
-  readBook: function readBook(params) {
-    return _request.default.get('/mobile/book/read', params);
-  },
-  // 产看电子书章节和内容
-  getBookDetailContent: function getBookDetailContent(params) {
-    return _request.default.get('/mobile/book/detail', params);
-  },
-  // 公告列表
-  getMsgList: function getMsgList(params) {
-    return _request.default.get('/mobile/notice/list', params);
-  },
-  // 收藏
-  collect: function collect(data) {
-    return _request.default.post('/mobile/collect', data);
-  },
-  // 取消收藏
-  uncollect: function uncollect(data) {
-    return _request.default.post('/mobile/uncollect', data);
-  },
-  // 获取我的收藏列表
-  getMyFavaList: function getMyFavaList(params) {
-    return _request.default.get('/mobile/user_fava', params);
-  },
-  // 获取课程列表
-  getCourseList: function getCourseList(params) {
-    return _request.default.get('/mobile/course/list', params);
-  },
-  // 获取专栏列表
-  getColumnList: function getColumnList(params) {
-    return _request.default.get('/mobile/column/list', params);
-  },
-  // 立即学习
-  learn: function learn(data) {
-    return _request.default.post('/mobile/order/learn', data);
-  },
-  // 下单前获取产品信息
-  readGoods: function readGoods(params) {
-    return _request.default.get('/mobile/goods/read', params);
-  },
-  // 获取指定课程/专栏的可用优惠券
-  getUserableCouponCount: function getUserableCouponCount(params) {
-    return _request.default.get('/mobile/user_coupon/count', params);
-  },
-  // 创建订单
-  createOrder: function createOrder(data) {
-    var type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'save';
-    return _request.default.post("/mobile/order/".concat(type), data);
-  },
-  // 微信支付
-  wxpay: function wxpay(data) {
-    return _request.default.post('/mobile/order/wxpay', data);
-  },
-  // 获取直播列表
-  getLive: function getLive(params) {
-    return _request.default.get('/mobile/live/list', params);
-  },
-  // 查看直播间
-  readLive: function readLive(params) {
-    return _request.default.get('/mobile/live/read', params);
-  },
-  // 发送弹幕
-  sendLiveComment: function sendLiveComment(data) {
-    return _request.default.post('/mobile/live_comment/save', data);
-  },
-  // 获取弹幕列表
-  getLiveComment: function getLiveComment(params) {
-    return _request.default.get('/mobile/live_comment', params);
-  },
-  // 获取当前拼团专栏/课程的可组团列表
-  getGroupWorkList: function getGroupWorkList(params) {
-    return _request.default.get('/mobile/group_work/list', params);
-  },
-  // 微信app/小程序/H5登录
-  wxLogin: function wxLogin(data) {
-    return _request.default.post('/mobile/weixin_login', data);
-  },
-  // 我的电子书列表
-  getMyBookList: function getMyBookList(params) {
-    return _request.default.get('/mobile/mybook', params);
-  }
-};
-exports.default = _default;
-
-/***/ }),
-
-/***/ 338:
+/***/ 328:
 /*!****************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \****************************************************************************************************/
@@ -10841,6 +10584,263 @@ var _default = {
     "unicode": "e631",
     "unicode_decimal": 58929
   }]
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ 33:
+/*!***********************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/api/api.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _request = _interopRequireDefault(__webpack_require__(/*! ./request.js */ 34));
+var _default = {
+  // 获取首页数据
+  getIndexData: function getIndexData() {
+    return _request.default.get('/mobile/index');
+  },
+  // 获取可用秒杀列表
+  getFlashSale: function getFlashSale() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    params.usable = 1;
+    return _request.default.get('/mobile/flashsale', params);
+  },
+  // 获取可用get拼团列表
+  getGroup: function getGroup() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    params.usable = 1;
+    return _request.default.get('/mobile/group', params);
+  },
+  // 注册账号
+  reg: function reg(data) {
+    return _request.default.post('/mobile/reg', data);
+  },
+  // 账号登录
+  login: function login(data) {
+    return _request.default.post('/mobile/login', data);
+  },
+  // 获取手机验证码
+  getCaptcha: function getCaptcha(data) {
+    return _request.default.post('/mobile/get_captcha', data);
+  },
+  // 绑定手机号
+  bindMobile: function bindMobile(data) {
+    return _request.default.post('/mobile/bind_mobile', data);
+  },
+  // 找回密码
+  forget: function forget(data) {
+    return _request.default.post('/mobile/forget', data);
+  },
+  // 退出登录
+  logout: function logout() {
+    return _request.default.post('/mobile/logout');
+  },
+  // 修改密码
+  updatePassword: function updatePassword(data) {
+    return _request.default.post('/mobile/update_password', data);
+  },
+  // 上传图片
+  upload: function upload(filePath) {
+    var onProgress = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+    return _request.default.upload('/mobile/upload', {
+      filePath: filePath
+    }, {
+      onProgress: onProgress
+    });
+  },
+  // 修改资料
+  updateInfo: function updateInfo(data) {
+    return _request.default.post('/mobile/update_info', data);
+  },
+  // 获取订单列表
+  getOrderList: function getOrderList(params) {
+    return _request.default.get('/mobile/order/list', params);
+  },
+  // 获取优惠券列表
+  getCoupon: function getCoupon() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    return _request.default.get('/mobile/coupon', params);
+  },
+  // 领取优惠券
+  receiveCoupon: function receiveCoupon(data) {
+    return _request.default.post('/mobile/user_coupon/receive', data);
+  },
+  // 我的优惠券列表
+  getUserCoupon: function getUserCoupon(params) {
+    return _request.default.get('/mobile/user_coupon', params);
+  },
+  // 搜索结果页
+  search: function search(params) {
+    return _request.default.get('/mobile/search', params);
+  },
+  // 查看课程详情
+  readCourse: function readCourse(params) {
+    return _request.default.get('/mobile/course/read', params);
+  },
+  // 获取专栏详情页
+  readColumn: function readColumn(params) {
+    return _request.default.get('/mobile/column/read', params);
+  },
+  // 学习进度列表
+  getUserHistory: function getUserHistory(params) {
+    return _request.default.get('/mobile/user_history/list', params);
+  },
+  // 更新学习进度
+  updateUserHistory: function updateUserHistory(data) {
+    return _request.default.post('/mobile/user_history/update', data);
+  },
+  // 考场列表
+  getTestList: function getTestList(params) {
+    return _request.default.get('/mobile/testpaper/list', params);
+  },
+  // 开始考试
+  readTestPaper: function readTestPaper(params) {
+    return _request.default.get('/mobile/testpaper/read', params);
+  },
+  // 考试交卷
+  submitTest: function submitTest(data) {
+    return _request.default.post('/mobile/user_test/save', data);
+  },
+  // 我的考试记录
+  getMyTestList: function getMyTestList(params) {
+    return _request.default.get('/mobile/user_test/list', params);
+  },
+  // 社区列表
+  getBbsList: function getBbsList(params) {
+    return _request.default.get('/mobile/bbs', params);
+  },
+  // 帖子列表
+  getPostList: function getPostList(params) {
+    return _request.default.get('/mobile/post/list', params);
+  },
+  // 点赞帖子
+  supportPost: function supportPost(data) {
+    return _request.default.post('/mobile/post/support', data);
+  },
+  // 取消点赞帖子
+  unSupportPost: function unSupportPost(data) {
+    return _request.default.post('/mobile/post/unsupport', data);
+  },
+  // 发布帖子
+  addPost: function addPost(data) {
+    return _request.default.post('/mobile/post/save', data);
+  },
+  // 查看帖子
+  readPost: function readPost(params) {
+    return _request.default.get('/mobile/post/read', params);
+  },
+  // 查看帖子评论
+  getPostComments: function getPostComments(params) {
+    return _request.default.get('/mobile/post_comment', params);
+  },
+  // 发送评论
+  replyPost: function replyPost(data) {
+    return _request.default.post('/mobile/post/reply', data);
+  },
+  // 我的帖子列表
+  getMyPost: function getMyPost(params) {
+    return _request.default.get('/mobile/mypost', params);
+  },
+  // 删除我的帖子
+  deletePost: function deletePost(data) {
+    return _request.default.post('/mobile/post/delete', data);
+  },
+  // 电子书列表
+  getBookList: function getBookList(params) {
+    return _request.default.get('/mobile/book/list', params);
+  },
+  // 查看电子书详情
+  readBook: function readBook(params) {
+    return _request.default.get('/mobile/book/read', params);
+  },
+  // 产看电子书章节和内容
+  getBookDetailContent: function getBookDetailContent(params) {
+    return _request.default.get('/mobile/book/detail', params);
+  },
+  // 公告列表
+  getMsgList: function getMsgList(params) {
+    return _request.default.get('/mobile/notice/list', params);
+  },
+  // 收藏
+  collect: function collect(data) {
+    return _request.default.post('/mobile/collect', data);
+  },
+  // 取消收藏
+  uncollect: function uncollect(data) {
+    return _request.default.post('/mobile/uncollect', data);
+  },
+  // 获取我的收藏列表
+  getMyFavaList: function getMyFavaList(params) {
+    return _request.default.get('/mobile/user_fava', params);
+  },
+  // 获取课程列表
+  getCourseList: function getCourseList(params) {
+    return _request.default.get('/mobile/course/list', params);
+  },
+  // 获取专栏列表
+  getColumnList: function getColumnList(params) {
+    return _request.default.get('/mobile/column/list', params);
+  },
+  // 立即学习
+  learn: function learn(data) {
+    return _request.default.post('/mobile/order/learn', data);
+  },
+  // 下单前获取产品信息
+  readGoods: function readGoods(params) {
+    return _request.default.get('/mobile/goods/read', params);
+  },
+  // 获取指定课程/专栏的可用优惠券
+  getUserableCouponCount: function getUserableCouponCount(params) {
+    return _request.default.get('/mobile/user_coupon/count', params);
+  },
+  // 创建订单
+  createOrder: function createOrder(data) {
+    var type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'save';
+    return _request.default.post("/mobile/order/".concat(type), data);
+  },
+  // 微信支付
+  wxpay: function wxpay(data) {
+    return _request.default.post('/mobile/order/wxpay', data);
+  },
+  // 获取直播列表
+  getLive: function getLive(params) {
+    return _request.default.get('/mobile/live/list', params);
+  },
+  // 查看直播间
+  readLive: function readLive(params) {
+    return _request.default.get('/mobile/live/read', params);
+  },
+  // 发送弹幕
+  sendLiveComment: function sendLiveComment(data) {
+    return _request.default.post('/mobile/live_comment/save', data);
+  },
+  // 获取弹幕列表
+  getLiveComment: function getLiveComment(params) {
+    return _request.default.get('/mobile/live_comment', params);
+  },
+  // 获取当前拼团专栏/课程的可组团列表
+  getGroupWorkList: function getGroupWorkList(params) {
+    return _request.default.get('/mobile/group_work/list', params);
+  },
+  // 微信app/小程序/H5登录
+  wxLogin: function wxLogin(data) {
+    return _request.default.post('/mobile/weixin_login', data);
+  },
+  // 我的电子书列表
+  getMyBookList: function getMyBookList(params) {
+    return _request.default.get('/mobile/mybook', params);
+  }
 };
 exports.default = _default;
 
@@ -12317,7 +12317,7 @@ module.exports = index_cjs;
 
 /***/ }),
 
-/***/ 377:
+/***/ 367:
 /*!*************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/mp-html/components/mp-html/parser.js ***!
   \*************************************************************************************************/
@@ -13590,6 +13590,410 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ 37:
+/*!****************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/api/localapi.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _localrequest = _interopRequireDefault(__webpack_require__(/*! ./localrequest.js */ 38));
+var _default = {
+  // 获取首页数据
+  getIndexData: function getIndexData() {
+    return _localrequest.default.get('/system/api/index/mobile');
+  },
+  // 获取可用秒杀列表
+  getFlashSale: function getFlashSale() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    params.usable = 1;
+    return _localrequest.default.get('/mobile/flashsale', params);
+  },
+  // 获取可用get拼团列表
+  getGroup: function getGroup() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    params.usable = 1;
+    return _localrequest.default.get('/mobile/group', params);
+  },
+  // 注册账号
+  reg: function reg(data) {
+    return _localrequest.default.post('/mobile/reg', data);
+  },
+  // 账号登录
+  login: function login(data) {
+    return _localrequest.default.post('/mobile/login', data);
+  },
+  // 获取手机验证码
+  getCaptcha: function getCaptcha(data) {
+    return _localrequest.default.post('/mobile/get_captcha', data);
+  },
+  // 绑定手机号
+  bindMobile: function bindMobile(data) {
+    return _localrequest.default.post('/mobile/bind_mobile', data);
+  },
+  // 找回密码
+  forget: function forget(data) {
+    return _localrequest.default.post('/mobile/forget', data);
+  },
+  // 退出登录
+  logout: function logout() {
+    return _localrequest.default.post('/mobile/logout');
+  },
+  // 修改密码
+  updatePassword: function updatePassword(data) {
+    return _localrequest.default.post('/mobile/update_password', data);
+  },
+  // 上传图片
+  upload: function upload(filePath) {
+    var onProgress = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+    return _localrequest.default.upload('/mobile/upload', {
+      filePath: filePath
+    }, {
+      onProgress: onProgress
+    });
+  },
+  // 修改资料
+  updateInfo: function updateInfo(data) {
+    return _localrequest.default.post('/mobile/update_info', data);
+  },
+  // 获取订单列表
+  getOrderList: function getOrderList(params) {
+    return _localrequest.default.get('/mobile/order/list', params);
+  },
+  // 获取优惠券列表
+  getCoupon: function getCoupon() {
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    return _localrequest.default.get('/mobile/coupon', params);
+  },
+  // 领取优惠券
+  receiveCoupon: function receiveCoupon(data) {
+    return _localrequest.default.post('/mobile/user_coupon/receive', data);
+  },
+  // 我的优惠券列表
+  getUserCoupon: function getUserCoupon(params) {
+    return _localrequest.default.get('/mobile/user_coupon', params);
+  },
+  // 搜索结果页
+  search: function search(params) {
+    return _localrequest.default.get('/mobile/search', params);
+  },
+  // 查看课程详情
+  readCourse: function readCourse(params) {
+    return _localrequest.default.get('/mobile/course/read', params);
+  },
+  // 获取专栏详情页
+  readColumn: function readColumn(params) {
+    return _localrequest.default.get('/mobile/column/read', params);
+  },
+  // 学习进度列表
+  getUserHistory: function getUserHistory(params) {
+    return _localrequest.default.get('/mobile/user_history/list', params);
+  },
+  // 更新学习进度
+  updateUserHistory: function updateUserHistory(data) {
+    return _localrequest.default.post('/mobile/user_history/update', data);
+  },
+  // 考场列表
+  getTestList: function getTestList(params) {
+    return _localrequest.default.get('/mobile/testpaper/list', params);
+  },
+  // 开始考试
+  readTestPaper: function readTestPaper(params) {
+    return _localrequest.default.get('/mobile/testpaper/read', params);
+  },
+  // 考试交卷
+  submitTest: function submitTest(data) {
+    return _localrequest.default.post('/mobile/user_test/save', data);
+  },
+  // 我的考试记录
+  getMyTestList: function getMyTestList(params) {
+    return _localrequest.default.get('/mobile/user_test/list', params);
+  },
+  // 社区列表
+  getBbsList: function getBbsList(params) {
+    return _localrequest.default.get('/mobile/bbs', params);
+  },
+  // 帖子列表
+  getPostList: function getPostList(params) {
+    return _localrequest.default.get('/mobile/post/list', params);
+  },
+  // 点赞帖子
+  supportPost: function supportPost(data) {
+    return _localrequest.default.post('/mobile/post/support', data);
+  },
+  // 取消点赞帖子
+  unSupportPost: function unSupportPost(data) {
+    return _localrequest.default.post('/mobile/post/unsupport', data);
+  },
+  // 发布帖子
+  addPost: function addPost(data) {
+    return _localrequest.default.post('/mobile/post/save', data);
+  },
+  // 查看帖子
+  readPost: function readPost(params) {
+    return _localrequest.default.get('/mobile/post/read', params);
+  },
+  // 查看帖子评论
+  getPostComments: function getPostComments(params) {
+    return _localrequest.default.get('/mobile/post_comment', params);
+  },
+  // 发送评论
+  replyPost: function replyPost(data) {
+    return _localrequest.default.post('/mobile/post/reply', data);
+  },
+  // 我的帖子列表
+  getMyPost: function getMyPost(params) {
+    return _localrequest.default.get('/mobile/mypost', params);
+  },
+  // 删除我的帖子
+  deletePost: function deletePost(data) {
+    return _localrequest.default.post('/mobile/post/delete', data);
+  },
+  // 电子书列表
+  getBookList: function getBookList(params) {
+    return _localrequest.default.get('/mobile/book/list', params);
+  },
+  // 查看电子书详情
+  readBook: function readBook(params) {
+    return _localrequest.default.get('/mobile/book/read', params);
+  },
+  // 产看电子书章节和内容
+  getBookDetailContent: function getBookDetailContent(params) {
+    return _localrequest.default.get('/mobile/book/detail', params);
+  },
+  // 公告列表
+  getMsgList: function getMsgList(params) {
+    return _localrequest.default.get('/mobile/notice/list', params);
+  },
+  // 收藏
+  collect: function collect(data) {
+    return _localrequest.default.post('/mobile/collect', data);
+  },
+  // 取消收藏
+  uncollect: function uncollect(data) {
+    return _localrequest.default.post('/mobile/uncollect', data);
+  },
+  // 获取我的收藏列表
+  getMyFavaList: function getMyFavaList(params) {
+    return _localrequest.default.get('/mobile/user_fava', params);
+  },
+  // 获取课程列表
+  getCourseList: function getCourseList(params) {
+    return _localrequest.default.get('/mobile/course/list', params);
+  },
+  // 获取专栏列表
+  getColumnList: function getColumnList(params) {
+    return _localrequest.default.get('/mobile/column/list', params);
+  },
+  // 立即学习
+  learn: function learn(data) {
+    return _localrequest.default.post('/mobile/order/learn', data);
+  },
+  // 下单前获取产品信息
+  readGoods: function readGoods(params) {
+    return _localrequest.default.get('/mobile/goods/read', params);
+  },
+  // 获取指定课程/专栏的可用优惠券
+  getUserableCouponCount: function getUserableCouponCount(params) {
+    return _localrequest.default.get('/mobile/user_coupon/count', params);
+  },
+  // 创建订单
+  createOrder: function createOrder(data) {
+    var type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'save';
+    return _localrequest.default.post("/mobile/order/".concat(type), data);
+  },
+  // 微信支付
+  wxpay: function wxpay(data) {
+    return _localrequest.default.post('/mobile/order/wxpay', data);
+  },
+  // 获取直播列表
+  getLive: function getLive(params) {
+    return _localrequest.default.get('/mobile/live/list', params);
+  },
+  // 查看直播间
+  readLive: function readLive(params) {
+    return _localrequest.default.get('/mobile/live/read', params);
+  },
+  // 发送弹幕
+  sendLiveComment: function sendLiveComment(data) {
+    return _localrequest.default.post('/mobile/live_comment/save', data);
+  },
+  // 获取弹幕列表
+  getLiveComment: function getLiveComment(params) {
+    return _localrequest.default.get('/mobile/live_comment', params);
+  },
+  // 获取当前拼团专栏/课程的可组团列表
+  getGroupWorkList: function getGroupWorkList(params) {
+    return _localrequest.default.get('/mobile/group_work/list', params);
+  },
+  // 微信app/小程序/H5登录
+  wxLogin: function wxLogin(data) {
+    return _localrequest.default.post('/mobile/weixin_login', data);
+  },
+  // 我的电子书列表
+  getMyBookList: function getMyBookList(params) {
+    return _localrequest.default.get('/mobile/mybook', params);
+  }
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ 38:
+/*!********************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/api/localrequest.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ 5));
+var _index = _interopRequireDefault(__webpack_require__(/*! @/store/index.js */ 35));
+var _default = {
+  config: {
+    baseURL: 'http://127.0.0.1:8080',
+    appid: 'bd9d01ecc75dbbaaefce',
+    // 请求拦截器
+    beforeRequest: function beforeRequest() {
+      var _this = this;
+      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      return new Promise(function (resolve, reject) {
+        // 公共参数处理
+        options.url = _this.baseURL + options.url;
+        options.method = options.method || 'GET';
+        options.header = {
+          appid: _this.appid,
+          token: 'Bearar ' + _index.default.state.token
+        };
+
+        // 权限相关验证
+
+        resolve(options);
+      });
+    },
+    // 响应拦截器
+    handleResponse: function handleResponse(_ref) {
+      var _ref2 = (0, _slicedToArray2.default)(_ref, 2),
+        error = _ref2[0],
+        res = _ref2[1];
+      return new Promise(function (resolve, reject) {
+        // 错误提示处理
+        if (res.statusCode != 200 || res.data.msg === 'fail') {
+          var msg = res.data.data || '请求失败';
+          uni.showToast({
+            title: msg,
+            icon: 'none'
+          });
+          if (res.data.data == 'Token 令牌不合法，请重新登录' || res.data.data == '您没有权限访问该接口!') {
+            // 清除本地token
+            _index.default.dispatch('logout');
+            setTimeout(function () {
+              uni.navigateTo({
+                url: '/pages/login/login'
+              });
+            }, 500);
+          }
+          return reject(msg);
+        }
+        resolve(res.data.data);
+      });
+    }
+  },
+  request: function request() {
+    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    return this.config.beforeRequest(options).then(function (opt) {
+      return uni.request(opt);
+    }).then(this.config.handleResponse);
+  },
+  /*
+  {
+  	a:1,
+  	b:2,
+  	c:3
+  }
+  /mobile/index?a=1&b=2&c=3
+  */
+  // GET请求
+  get: function get(url) {
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    options.url = url;
+    options.url += params ? '?' + Object.keys(params).map(function (key) {
+      return key + "=" + params[key];
+    }).join('&') : '';
+    options.method = 'GET';
+    return this.request(options);
+  },
+  // POST请求
+  post: function post(url) {
+    var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    options.url = url;
+    options.method = 'POST';
+    options.data = data;
+    return this.request(options);
+  },
+  // 上传文件
+  upload: function upload(url) {
+    var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    options.url = url;
+    return this.config.beforeRequest(options).then(function (opt) {
+      return new Promise(function (resolve, reject) {
+        // 上传文件
+        var uploadTask = uni.uploadFile({
+          url: opt.url,
+          filePath: data.filePath,
+          name: data.name || 'files',
+          header: opt.header,
+          success: function success(res) {
+            if (res.statusCode !== 200) {
+              reject('上传失败');
+              return uni.showToast({
+                title: '上传失败',
+                icon: 'none'
+              });
+            }
+            var message = JSON.parse(res.data);
+            resolve(message.data);
+          },
+          fail: function fail(err) {
+            console.log(err);
+            reject(err.message);
+          }
+        });
+
+        // 监听上传进度
+        uploadTask.onProgressUpdate(function (res) {
+          // 调用回调函数
+          if (options.onProgress && typeof options.onProgress == 'function') {
+            options.onProgress(res.progress);
+          }
+        });
+      });
+    });
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+
 /***/ 4:
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -13606,7 +14010,7 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 
 /***/ }),
 
-/***/ 441:
+/***/ 431:
 /*!**************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/components/upload-image/permission.js ***!
   \**************************************************************************************/
@@ -13855,7 +14259,7 @@ module.exports = permission;
 
 /***/ }),
 
-/***/ 473:
+/***/ 463:
 /*!***********************************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-swipe-action/components/uni-swipe-action-item/mpwxs.js ***!
   \***********************************************************************************************************************/
@@ -13934,7 +14338,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 474:
+/***/ 464:
 /*!**************************************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-swipe-action/components/uni-swipe-action-item/bindingx.js ***!
   \**************************************************************************************************************************/
@@ -13954,7 +14358,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 475:
+/***/ 465:
 /*!*************************************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-swipe-action/components/uni-swipe-action-item/mpother.js ***!
   \*************************************************************************************************************************/
@@ -13971,6 +14375,66 @@ exports.default = void 0;
 var otherMixins = {};
 var _default = otherMixins;
 exports.default = _default;
+
+/***/ }),
+
+/***/ 496:
+/*!*****************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/index.js ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 497));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 498));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 499));
+var _default = {
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ 497:
+/*!****************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/en.json ***!
+  \****************************************************************************************************************/
+/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-countdown.day\":\"day\",\"uni-countdown.h\":\"h\",\"uni-countdown.m\":\"m\",\"uni-countdown.s\":\"s\"}");
+
+/***/ }),
+
+/***/ 498:
+/*!*********************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hans.json ***!
+  \*********************************************************************************************************************/
+/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":\"时\",\"uni-countdown.m\":\"分\",\"uni-countdown.s\":\"秒\"}");
+
+/***/ }),
+
+/***/ 499:
+/*!*********************************************************************************************************************!*\
+  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hant.json ***!
+  \*********************************************************************************************************************/
+/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":\"時\",\"uni-countdown.m\":\"分\",\"uni-countdown.s\":\"秒\"}");
 
 /***/ }),
 
@@ -13992,67 +14456,7 @@ module.exports = _slicedToArray, module.exports.__esModule = true, module.export
 
 /***/ }),
 
-/***/ 506:
-/*!*****************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/index.js ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 507));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 508));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 509));
-var _default = {
-  en: _en.default,
-  'zh-Hans': _zhHans.default,
-  'zh-Hant': _zhHant.default
-};
-exports.default = _default;
-
-/***/ }),
-
-/***/ 507:
-/*!****************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/en.json ***!
-  \****************************************************************************************************************/
-/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-countdown.day\":\"day\",\"uni-countdown.h\":\"h\",\"uni-countdown.m\":\"m\",\"uni-countdown.s\":\"s\"}");
-
-/***/ }),
-
-/***/ 508:
-/*!*********************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hans.json ***!
-  \*********************************************************************************************************************/
-/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":\"时\",\"uni-countdown.m\":\"分\",\"uni-countdown.s\":\"秒\"}");
-
-/***/ }),
-
-/***/ 509:
-/*!*********************************************************************************************************************!*\
-  !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-countdown/components/uni-countdown/i18n/zh-Hant.json ***!
-  \*********************************************************************************************************************/
-/*! exports provided: uni-countdown.day, uni-countdown.h, uni-countdown.m, uni-countdown.s, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-countdown.day\":\"天\",\"uni-countdown.h\":\"時\",\"uni-countdown.m\":\"分\",\"uni-countdown.s\":\"秒\"}");
-
-/***/ }),
-
-/***/ 524:
+/***/ 514:
 /*!************************************************************************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/uni_modules/uni-transition/components/uni-transition/createAnimation.js ***!
   \************************************************************************************************************************/
@@ -14201,7 +14605,7 @@ module.exports = _arrayWithHoles, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ 65:
+/***/ 67:
 /*!***************************************************************!*\
   !*** C:/dev/graduation-project/geekedu-applet/common/tool.js ***!
   \***************************************************************/
@@ -14216,9 +14620,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 66));
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 68));
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ 5));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 68));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 70));
 var _api = _interopRequireDefault(__webpack_require__(/*! @/api/api.js */ 33));
 var _default = {
   wxpay: function wxpay(no) {
@@ -14411,7 +14815,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 66:
+/***/ 68:
 /*!************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/@babel/runtime/regenerator/index.js ***!
   \************************************************************************************************/
@@ -14420,12 +14824,12 @@ exports.default = _default;
 
 // TODO(Babel 8): Remove this file.
 
-var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 67)();
+var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 69)();
 module.exports = runtime;
 
 /***/ }),
 
-/***/ 67:
+/***/ 69:
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/regeneratorRuntime.js ***!
   \*******************************************************************/
@@ -14747,47 +15151,6 @@ module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.e
 
 /***/ }),
 
-/***/ 68:
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/asyncToGenerator.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-  try {
-    var info = gen[key](arg);
-    var value = info.value;
-  } catch (error) {
-    reject(error);
-    return;
-  }
-  if (info.done) {
-    resolve(value);
-  } else {
-    Promise.resolve(value).then(_next, _throw);
-  }
-}
-function _asyncToGenerator(fn) {
-  return function () {
-    var self = this,
-      args = arguments;
-    return new Promise(function (resolve, reject) {
-      var gen = fn.apply(self, args);
-      function _next(value) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
-      }
-      function _throw(err) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
-      }
-      _next(undefined);
-    });
-  };
-}
-module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ 7:
 /*!*********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
@@ -14825,6 +15188,47 @@ function _iterableToArrayLimit(r, l) {
   }
 }
 module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 70:
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/asyncToGenerator.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+  if (info.done) {
+    resolve(value);
+  } else {
+    Promise.resolve(value).then(_next, _throw);
+  }
+}
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+      args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+      _next(undefined);
+    });
+  };
+}
+module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
